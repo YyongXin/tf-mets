@@ -1,0 +1,75 @@
+path: "tensorflow.experimental"
+tf_module {
+  member {
+    name: "tensorrt"
+    mtype: "<type \'module\'>"
+  }
+  member_method {
+    name: "function_executor_type"
+    argspec: "args=[\'executor_type\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_num_allocs"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_bytes_in_use"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_peak_bytes_in_use"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_largest_alloc_size"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_bytes_limit"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_bytes_reserved"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_peak_bytes_reserved"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_bytes_reservable_limit"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_bytes_inactive"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_bytes_active"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_peak_bytes_active"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_bytes_reclaimed"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_num_single_reclaims"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_num_full_reclaims"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_num_defragmentations"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+  member_method {
+    name: "get_bytes_defragged"
+    argspec: "args=[\'gpu_id\'], varargs=None, keywords=None, defaults=None"
+  }
+}
