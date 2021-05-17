@@ -1,0 +1,16 @@
+/// \mainpage Core of TensorFlow V2.1.3
+///
+/// \section main_intro Introduction
+/// Welcome to TensorFlow V2.1.3, mainly about the codebase of ***tensorflow/core***.
+///
+/// This documentation describes the **internal** software that makes
+/// up TensorFlow, not the **external** use of TensorFlow. There are no instructions
+/// here on how to use TensorFlow, only the APIs that make up the software. For usage
+/// instructions, please see the programmer's guide or reference manual.
+///
+/// \section Caveat
+/// This documentation is generated directly from the source code with doxygen.
+/// Since TensorFlow is constantly under active development, what you're about to
+/// read is out of date! However, it may still be useful since certain portions
+/// of TensorFlow are very stable.
+///
