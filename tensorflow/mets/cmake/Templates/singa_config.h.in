@@ -1,0 +1,57 @@
+/**
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+*/
+
+// Source directory
+#define SOURCE_FOLDER "${PROJECT_SOURCE_DIR}"
+
+// Binaries director
+#define BINARY_FOLDER "${PROJECT_BINARY_DIR}"
+
+#cmakedefine CPU_ONLY
+
+#cmakedefine USE_CBLAS
+
+#cmakedefine USE_OPENCV
+// cuda
+#cmakedefine USE_CUDA
+
+#cmakedefine USE_OPENCL
+
+#cmakedefine USE_GLOG
+
+#cmakedefine ENABLE_DIST
+
+#cmakedefine USE_DIST
+
+// lmdb
+#cmakedefine USE_LMDB
+
+// singa version
+#cmakedefine SINGA_MAJOR_VERSION @SINGA_MAJOR_VERSION@
+#cmakedefine SINGA_MINOR_VERSION @SINGA_MINOR_VERSION@
+#cmakedefine SINGA_PATCH_VERSION @SINGA_PATCH_VERSION@
+#cmakedefine SINGA_VERSION @SINGA_VERSION@
+
+// cudnn version
+#cmakedefine USE_CUDNN
+// #cmakedefine CUDNN_MAJOR_VERSION @CUDNN_MAJOR_VERSION@
+// #cmakedefine CUDNN_MINOR_VERSION @CUDNN_MINOR_VERSION@
+// #cmakedefine CUDNN_PATCH_VERSION @CUDNN_PATCH_VERSION@
+// #cmakedefine CUDNN_VERSION @CUDNN_VERSION@
+
+#cmakedefine USE_DNNL
