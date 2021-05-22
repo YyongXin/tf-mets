@@ -16,11 +16,7 @@ import os
 import argparse
 from datetime import datetime
 import time
-
 import sys
-SINGA_PATH='/home/extend/lijiansong/work-space/anaconda2/envs/intel-caffe/lib/python3.6/site-packages'
-sys.path.append(SINGA_PATH)
-
 from singa import utils
 from singa import optimizer
 from singa import device

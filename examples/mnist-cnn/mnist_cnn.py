@@ -22,8 +22,6 @@ import argparse
 import os
 
 import sys
-SINGA_PATH='/home/extend/lijiansong/work-space/anaconda2/envs/intel-caffe/lib/python3.6/site-packages'
-sys.path.append(SINGA_PATH)
 
 from singa import device
 from singa import tensor

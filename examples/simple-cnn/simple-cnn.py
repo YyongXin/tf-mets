@@ -21,8 +21,6 @@ valid_x /= 255
 
 # train the cnn model
 import sys
-SINGA_PATH='/home/extend/lijiansong/work-space/anaconda2/envs/intel-caffe/lib/python3.6/site-packages'
-sys.path.append(SINGA_PATH)
 from singa import tensor
 from singa import autograd
 from singa import module
